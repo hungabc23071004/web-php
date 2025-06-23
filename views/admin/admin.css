@@ -1,0 +1,73 @@
+.menu {
+  flex: 2;
+  display: flex;
+  gap: 32px; /* Các mục menu cách đều nhau */
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+.logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 1.7em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  gap: 8px;
+}
+
+.search-bar {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-actions {
+  flex: 1;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#featured-products {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+.product-card {
+  background: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(56, 142, 60, 0.07);
+  padding: 12px;
+  width: 180px;
+  text-align: center;
+}
+.product-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 16px;
+  height: 64px;
+  gap: 32px;
+}
